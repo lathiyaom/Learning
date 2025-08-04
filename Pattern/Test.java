@@ -11,18 +11,17 @@ public class Test {
 6 6 6 6 6 6
         *
         * */
-        yheyth
-                ef
-                effef
-                        ef
-                        ef
-               wefewfwe                 ef
-                                ef
-                                        ef
-                                        effe
-                                                fe
-                                                fe
-                                                        fe
-                                                        qw
+
+
+        int n = 6;
+        for (int i = 1; i <= n; i++) {
+            for (int s = 1; s <= n - i; s++) {
+                System.out.print(" ");
+            }
+            for (int j = 1; j <= (2 * i) - 1; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
     }
 }
